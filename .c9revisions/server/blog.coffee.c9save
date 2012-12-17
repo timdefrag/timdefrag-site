@@ -1,0 +1,30 @@
+{"ts":1355695278486,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1355695305005,"patch":[[{"diffs":[[1,"module.exports.route = (app) ->\n  "]],"start1":0,"start2":0,"length1":0,"length2":34}]],"length":34,"saved":false}
+{"ts":1355695342917,"patch":[[{"diffs":[[0,"rts."],[-1,"r"],[1,"defineR"],[0,"oute"],[1,"s"],[0," = ("]],"start1":11,"start2":11,"length1":13,"length2":20}]],"length":41,"saved":false}
+{"ts":1355695544677,"patch":[[{"diffs":[[1,"blogIndex = ->\n  \n\n"],[0,"module.e"]],"start1":0,"start2":0,"length1":8,"length2":27},{"diffs":[[0," (app) ->\n  "],[1,"app.get('/blog'\n  "]],"start1":48,"start2":48,"length1":12,"length2":30}]],"length":78,"saved":false}
+{"ts":1355695550275,"patch":[[{"diffs":[[0,"('/blog'"],[1,", blogIndex)"],[0,"\n  "]],"start1":67,"start2":67,"length1":11,"length2":23}]],"length":90,"saved":false}
+{"ts":1355696403128,"patch":[[{"diffs":[[0,"gIndex ="],[1," ()"],[0," ->\n  \n\n"]],"start1":3,"start2":3,"length1":16,"length2":19}]],"length":93,"saved":false}
+{"ts":1355698776198,"patch":[[{"diffs":[[1,"util = require(\n\n"],[0,"blogIndex = () -"]],"start1":0,"start2":0,"length1":16,"length2":33}]],"length":110,"saved":false}
+{"ts":1355698871668,"patch":[[{"diffs":[[0,"rts."],[-1,"defineR"],[1,"r"],[0,"oute"],[-1,"s"],[0," = ("]],"start1":50,"start2":50,"length1":20,"length2":13}]],"length":103,"saved":false}
+{"ts":1355704085609,"patch":[[{"diffs":[[0,"rts."],[-1,"route"],[1,"init"],[0," = ("]],"start1":50,"start2":50,"length1":13,"length2":12}]],"length":102,"saved":false}
+{"ts":1355704167096,"patch":[[{"diffs":[[0," ->\n  \n\n"],[1,"# initialization\n"],[0,"module.e"]],"start1":31,"start2":31,"length1":16,"length2":33},{"diffs":[[0,"app) ->\n"],[1,"  \n  # route\n"],[0,"  app.ge"]],"start1":79,"start2":79,"length1":16,"length2":29}]],"length":132,"saved":false}
+{"ts":1355704228498,"patch":[[{"diffs":[[0," # route"],[1,"s"],[0,"\n  app.g"]],"start1":91,"start2":91,"length1":16,"length2":17}]],"length":133,"saved":false}
+{"ts":1355704235390,"patch":[[{"diffs":[[0," # route"],[1," request"],[0,"s\n  app."]],"start1":91,"start2":91,"length1":16,"length2":24}]],"length":141,"saved":false}
+{"ts":1355704246413,"patch":[[{"diffs":[[0,"ex ="],[-1," ()"],[0," ->\n"]],"start1":24,"start2":24,"length1":11,"length2":8}]],"length":138,"saved":false}
+{"ts":1355704257368,"patch":[[{"diffs":[[0,"quire(\n\n"],[-1,"blogI"],[1,"i"],[0,"ndex = -"]],"start1":9,"start2":9,"length1":21,"length2":17}]],"length":134,"saved":false}
+{"ts":1355704259615,"patch":[[{"diffs":[[0,"g', "],[-1,"blogI"],[1,"i"],[0,"ndex"]],"start1":117,"start2":117,"length1":13,"length2":9}]],"length":130,"saved":false}
+{"ts":1355704281337,"patch":[[{"diffs":[[0,"quire(\n\n"],[1,"\n"],[0,"index = "]],"start1":9,"start2":9,"length1":16,"length2":17},{"diffs":[[0," ->\n  \n\n"],[1,"\n"],[0,"# initia"]],"start1":25,"start2":25,"length1":16,"length2":17}]],"length":132,"saved":false}
+{"ts":1355704669207,"patch":[[{"diffs":[[0,"uire(\n\n\n"],[1,"ma"],[0,"in"],[-1,"dex"],[0," = ->\n  "]],"start1":10,"start2":10,"length1":21,"length2":20}]],"length":131,"saved":false}
+{"ts":1355704671666,"patch":[[{"diffs":[[0,"t('/"],[-1,"blog"],[1,"main"],[0,"', i"]],"start1":111,"start2":111,"length1":12,"length2":12}]],"length":131,"saved":false}
+{"ts":1355704680082,"patch":[[{"diffs":[[0,"t('/"],[-1,"main', index"],[1,"blog', main"],[0,")\n  "]],"start1":111,"start2":111,"length1":20,"length2":19}]],"length":130,"saved":false}
+{"ts":1355704685011,"patch":[[{"diffs":[[-1,"util = require("],[0,"\n\n\nm"]],"start1":0,"start2":0,"length1":19,"length2":4}]],"length":115,"saved":false}
+{"ts":1355704713827,"patch":[[{"diffs":[[1,"# imports\nfs = require 'fs'"],[0,"\n\n\nmain "]],"start1":0,"start2":0,"length1":8,"length2":35}]],"length":142,"saved":false}
+{"ts":1355704740479,"patch":[[{"diffs":[[0," 'fs'\n\n\n"],[1,"\n\n"],[0,"main = -"]],"start1":22,"start2":22,"length1":16,"length2":18},{"diffs":[[0," = ->\n  "],[1,"fs."],[0,"\n\n\n# ini"]],"start1":36,"start2":36,"length1":16,"length2":19}]],"length":147,"saved":false}
+{"ts":1355705190090,"patch":[[{"diffs":[[0,"\n\nmain ="],[1," (req, res)"],[0," ->\n  fs"]],"start1":30,"start2":30,"length1":16,"length2":27}]],"length":158,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1355706933612,"patch":[[{"diffs":[[0,">\n  "],[-1,"fs."],[0,"\n\n\n#"]],"start1":51,"start2":51,"length1":11,"length2":8}]],"length":155,"saved":false}
+{"ts":1355706953372,"patch":[[{"diffs":[[0,"init = ("],[1,"@"],[0,"app) ->\n"]],"start1":90,"start2":90,"length1":16,"length2":17}]],"length":156,"saved":false}
+{"ts":1355706994333,"patch":[[{"diffs":[[0,"s) ->\n  "],[1,"app."],[0,"\n\n\n# ini"]],"start1":47,"start2":47,"length1":16,"length2":20}]],"length":160,"saved":false}
+{"ts":1355707005261,"patch":[[{"diffs":[[0," = ("],[-1,"@"],[0,"app)"]],"start1":98,"start2":98,"length1":9,"length2":8}]],"length":159,"saved":false}
+{"ts":1355707038289,"patch":[[{"diffs":[[0,"fs'\n\n\n\n\n"],[-1,"m"],[1,"blogM"],[0,"ain = (r"]],"start1":24,"start2":24,"length1":17,"length2":21},{"diffs":[[0,"s) ->\n  "],[-1,"app."],[1,"res.render('blog.'"],[0,"\n\n\n# ini"]],"start1":51,"start2":51,"length1":20,"length2":34}]],"length":177,"saved":false}
+{"ts":1355707044809,"patch":[[{"diffs":[[0,"r('blog."],[1,"jade"],[0,"'\n\n\n# in"]],"start1":68,"start2":68,"length1":16,"length2":20}]],"length":181,"saved":false}
+{"ts":1355707680092,"patch":[[{"diffs":[[0,"og.jade'"],[1,", {\n    \n  })"],[0,"\n\n\n# ini"]],"start1":73,"start2":73,"length1":16,"length2":29}]],"length":194,"saved":false}

@@ -1,0 +1,7 @@
+{"ts":1355705236389,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1355705363509,"patch":[[{"diffs":[[1,"module.exports.init = ->\n  "]],"start1":0,"start2":0,"length1":0,"length2":27}]],"length":27,"saved":false}
+{"ts":1355705371019,"patch":[[{"diffs":[[1,"\n\n"],[0,"module.e"]],"start1":0,"start2":0,"length1":8,"length2":10},{"diffs":[[0,"s.init ="],[1," (app)"],[0," ->\n  "]],"start1":15,"start2":15,"length1":14,"length2":20}]],"length":35,"saved":false}
+{"ts":1355705671011,"patch":[[{"diffs":[[0,"p) ->\n  "],[1,"\n  \n  \n\n  "]],"start1":27,"start2":27,"length1":8,"length2":18}]],"length":45,"saved":false}
+{"ts":1355705677374,"patch":[[{"diffs":[[0," \n  \n  \n"],[1,"module.exports =\n  "],[0,"\n  "]],"start1":34,"start2":34,"length1":11,"length2":30}]],"length":64,"saved":false}
+{"ts":1355705694450,"patch":[[{"diffs":[[0,"ports =\n"],[1,"  init: init\n"],[0,"  \n  "]],"start1":51,"start2":51,"length1":13,"length2":26}]],"length":77,"saved":false}
+{"ts":1355705756315,"patch":[[{"diffs":[[0,"\n  \n"],[-1,"  \nmodule.exports =\n  init: init\n  \n  "]],"start1":35,"start2":35,"length1":42,"length2":4}]],"length":39,"saved":false}

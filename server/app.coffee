@@ -1,22 +1,28 @@
-# import express library
-express = require('express')
+# imports
+
+express  = require('express')
+_        = require('underscore')
+
 
 # create server instance
 app = express()
 
-# forward public file requests
-app.use(express.static(__dirname + '/../public'))
+app.set('views', __dirname + '/view'
 
 # for other requests, use the router
 app.use(app.router)
 
-# Define routes
-app.get('/hello', (req, res) ->
-  body = 'hello world'
-  res.setHeader('Content-Type', 'text/plain')
-  res.setHeader('Content-Length', body.length)
-  res.end(body)
-)
+# forward public file requests
+app.use(express.static(__dirname + '/../public'))
+
+# Init modules
+_.each [
+  'blog'
+], (module) ->
+  require("./#{module}") .init(app)
+
+
+
 
 # Export server
 module.exports = app
