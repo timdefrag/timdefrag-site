@@ -9,11 +9,13 @@ app = express()
 
 app.set('views', __dirname + '/view'
 
+# forward public file requests
+app.use(express.static(__dirname + '/../public'))
+
 # for other requests, use the router
 app.use(app.router)
 
-# forward public file requests
-app.use(express.static(__dirname + '/../public'))
+
 
 # Init modules
 _.each [
