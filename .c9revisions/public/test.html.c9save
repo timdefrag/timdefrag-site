@@ -1,3 +1,0 @@
-{"ts":1355694228307,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1355694253388,"patch":[[{"diffs":[[1,"<!DOCTYPE html>\n<html>\n  <head>\n    <title>test page</title>\n  </head>\n</html>"]],"start1":0,"start2":0,"length1":0,"length2":78}]],"length":78,"saved":false}
-{"ts":1355694263072,"patch":[[{"diffs":[[0,"</head>\n"],[1,"  <body>\n    testing\n  </body>\n"],[0,"</html>"]],"start1":63,"start2":63,"length1":15,"length2":46}]],"length":109,"saved":false}
