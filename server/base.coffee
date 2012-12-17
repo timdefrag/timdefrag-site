@@ -18,7 +18,7 @@ _str  = require 'underscore.string'
 #
 #   res.render('view/blog.jade', html)
 #   
-class Builder
+module.exports.builder = class Builder
   
   # requests
   reqs         = []
@@ -53,9 +53,10 @@ class Builder
   
   
   # Return handler according to resource type
-  #
-  # @param [String] resName Path to extract extension from
-  # @return [Object] Actions for this resource type
+  # 
+  # @private
+  # @param    [String]  resName Path to extract extension from
+  # @return   [Object]  Actions for this resource type
   #
   handler = (resName) ->
     ext = _.last( resName.split('.') )
@@ -71,7 +72,7 @@ class Builder
   #   @param [String] res The path of a resource
   #   @return [Builder] this
   # 
-  # @overload
+  # @overload require(res)
   #   @param [Array<String>] res A list of resource paths
   #   @return [Builder] this
   #
@@ -88,11 +89,4 @@ class Builder
     
     
       
-  
-  
-
-module.exports =
-  Builder: Builder
-  
-  init: (app) ->
     

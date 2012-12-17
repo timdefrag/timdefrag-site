@@ -301,3 +301,8 @@
 {"ts":1355721985605,"patch":[[{"diffs":[[0,"ce paths"],[-1,"."],[0,"\n  \n  re"]],"start1":1606,"start2":1606,"length1":17,"length2":16}]],"length":1939,"saved":false}
 {"ts":1355721993787,"patch":[[{"diffs":[[0,"e paths\n"],[1,"  #   @return [Builder] this\n"],[0,"  \n  req"]],"start1":1607,"start2":1607,"length1":16,"length2":45}]],"length":1968,"saved":false}
 {"ts":1355721998674,"patch":[[{"diffs":[[0," this\n  "],[1,"#"],[0,"\n  requi"]],"start1":1638,"start2":1638,"length1":16,"length2":17}]],"length":1969,"saved":false}
+{"ts":1355722310554,"patch":[[{"diffs":[[0,"overload"],[1," require(res)"],[0,"\n  #   @"]],"start1":1548,"start2":1548,"length1":16,"length2":29}]],"length":1982,"saved":false}
+{"ts":1355722350462,"patch":[[{"diffs":[[0,"l)\n#   \n"],[1,"module.exports.builder = "],[0,"class Bu"]],"start1":503,"start2":503,"length1":16,"length2":41}]],"length":2007,"saved":false}
+{"ts":1355722359196,"patch":[[{"diffs":[[0,"   \n"],[-1,"  \n  \n\nmodule.exports =\n  Builder: Builder\n  \n  init: (app) ->\n"],[0,"    "]],"start1":1936,"start2":1936,"length1":71,"length2":8}]],"length":1944,"saved":false}
+{"ts":1355722452279,"patch":[[{"diffs":[[0,"type\n  #"],[1," \n  # @private"],[0,"\n  # @pa"]],"start1":1136,"start2":1136,"length1":16,"length2":30}]],"length":1958,"saved":false}
+{"ts":1355722460460,"patch":[[{"diffs":[[0,"\n  # @param "],[1,"   "],[0,"[String]"],[1," "],[0," resName Pat"]],"start1":1158,"start2":1158,"length1":32,"length2":36},{"diffs":[[0,"urn "],[1,"  "],[0,"[Object]"],[1," "],[0," Act"]],"start1":1230,"start2":1230,"length1":16,"length2":19}]],"length":1965,"saved":false}
