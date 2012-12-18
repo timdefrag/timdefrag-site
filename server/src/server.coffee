@@ -4,29 +4,32 @@ express  = require('express')
 _        = require('underscore')
 
 
-# create express app instance
-app = express()
-
-# default config
-app.configure ->
+class Server
   
   
-  # forward public file requests
-  app.use(express.static(__dirname + '/../public'))
-  
-  # for other requests, use the router
-  app.use(app.router)
+  constructor: =>
+    
+    # Init Express App
+    @app = express()
+    @app.configure =>
+      @app.use express.static(__dirname + '/../../client/public')
+      @app.use app.router
+    
+    
+    # Load Modules
+    @modules = {}
+    _.each [
+       'core', 'home', 'blog'
+    ], ->
+      module = @modules[mod] = require("./modules/#{mod}")
+      module.init(this)
+      
+    
+    # Route Index
+    @app.get '/',  @modules.home.index
 
 
+# Run Server
+server = module.exports = new Server();
+server.app.listen(process.env.PORT);
 
-# Init modules
-_.each [
-  'blog'
-], (module) ->
-  require("./#{module}") .init(app)
-
-
-
-
-# Export server
-module.exports = app

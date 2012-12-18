@@ -1,0 +1,9 @@
+{"ts":1355798817909,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1355798836894,"patch":[[{"diffs":[[1,"\n\nclass Home\n  "]],"start1":0,"start2":0,"length1":0,"length2":15}]],"length":15,"saved":false}
+{"ts":1355798838347,"patch":[[{"diffs":[[0," Home\n  "],[1,"\n  \n"]],"start1":7,"start2":7,"length1":8,"length2":12}]],"length":19,"saved":false}
+{"ts":1355798858297,"patch":[[{"diffs":[[0," Home\n  \n  \n"],[1,"module.exports = new Home();"]],"start1":7,"start2":7,"length1":12,"length2":40}]],"length":47,"saved":false}
+{"ts":1355798859141,"patch":[[{"diffs":[[0,"me()"],[-1,";"]],"start1":42,"start2":42,"length1":5,"length2":4}]],"length":46,"saved":false}
+{"ts":1355798868181,"patch":[[{"diffs":[[0,"e\n  \n  \n"],[1,"  constructor: =>\n    \n  \n"],[0,"module.e"]],"start1":11,"start2":11,"length1":16,"length2":42}]],"length":72,"saved":false}
+{"ts":1355798879222,"patch":[[{"diffs":[[0,"    \n  \n"],[1,"# Export Singleton\n"],[0,"module.e"]],"start1":37,"start2":37,"length1":16,"length2":35}]],"length":91,"saved":false}
+{"ts":1355798895088,"patch":[[{"diffs":[[0,"    \n  \n"],[1,"  index: =>\n    \n  \n"],[0,"# Export"]],"start1":37,"start2":37,"length1":16,"length2":36}]],"length":111,"saved":false}
+{"ts":1355799008070,"patch":[[{"diffs":[[0,"  index:"],[1," (req, res)"],[0," =>\n    "]],"start1":45,"start2":45,"length1":16,"length2":27}]],"length":122,"saved":false}
