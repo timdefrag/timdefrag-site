@@ -203,3 +203,16 @@
 {"ts":1355799119580,"patch":[[{"diffs":[[0,"get "],[1," "],[0,"'/',"],[1," "],[0," @mo"]],"start1":498,"start2":498,"length1":12,"length2":14}]],"length":634,"saved":false}
 {"ts":1355799138541,"patch":[[{"diffs":[[0,"app.get "],[-1," "],[0,"'/',  @m"]],"start1":494,"start2":494,"length1":17,"length2":16}]],"length":633,"saved":false}
 {"ts":1355799151179,"patch":[[{"diffs":[[0,"e.index\n"],[-1,"      \n    \n"],[0,"\n\n# Run "]],"start1":520,"start2":520,"length1":28,"length2":16}]],"length":621,"saved":false}
+{"ts":1355799263020,"patch":[[{"diffs":[[0,"ore')\n\n\n"],[1,"#\n#\n#\n#\n"],[0,"class Se"]],"start1":68,"start2":68,"length1":16,"length2":24}]],"length":629,"saved":false}
+{"ts":1355799284379,"patch":[[{"diffs":[[0,"re')\n\n\n#"],[1," Server module singleton."],[0,"\n#\n#\n#\nc"]],"start1":69,"start2":69,"length1":16,"length2":41}]],"length":654,"saved":false}
+{"ts":1355799313363,"patch":[[{"diffs":[[0," Server "],[-1,"module "],[0,"singleto"]],"start1":77,"start2":77,"length1":23,"length2":16},{"diffs":[[0,"ingleton"],[-1,"."],[0,"\n#\n#\n#\nc"]],"start1":86,"start2":86,"length1":17,"length2":16}]],"length":646,"saved":false}
+{"ts":1355799318963,"patch":[[{"diffs":[[0,"eton\n#\n#"],[1," "],[0,"\n#\nclass"]],"start1":90,"start2":90,"length1":16,"length2":17}]],"length":647,"saved":false}
+{"ts":1355799397978,"patch":[[{"diffs":[[0,"n\n#\n"],[-1,"# \n#\n"],[0,"clas"]],"start1":93,"start2":93,"length1":13,"length2":8}]],"length":642,"saved":false}
+{"ts":1355799433980,"patch":[[{"diffs":[[0,"er\n  \n  "],[1,"#\n  #\n  #\n  #"],[0,"\n  const"]],"start1":107,"start2":107,"length1":16,"length2":29}]],"length":655,"saved":false}
+{"ts":1355799463632,"patch":[[{"diffs":[[0,"erver\n  \n  #"],[1," Construct server module"],[0,"\n  #\n  #\n  #"]],"start1":104,"start2":104,"length1":24,"length2":48}]],"length":679,"saved":false}
+{"ts":1355799476107,"patch":[[{"diffs":[[0,"ule\n  #\n"],[-1,"  #\n  #\n"],[0,"  constr"]],"start1":137,"start2":137,"length1":24,"length2":16}]],"length":671,"saved":false}
+{"ts":1355799796449,"patch":[[{"diffs":[[0,"ver "],[-1,"singleton"],[1,"Module"],[0,"\n#\nc"]],"start1":81,"start2":81,"length1":17,"length2":14},{"diffs":[[0,"ule\n"],[-1,"  #\n"],[0,"  co"]],"start1":134,"start2":134,"length1":12,"length2":8}]],"length":664,"saved":false}
+{"ts":1355799932241,"patch":[[{"diffs":[[0,"  # "],[-1,"Construct server modul"],[1,"Initializ"],[0,"e\n  "]],"start1":110,"start2":110,"length1":30,"length2":17}]],"length":651,"saved":false}
+{"ts":1355800004014,"patch":[[{"diffs":[[0,"[\n      "],[-1," "],[0,"'core', "]],"start1":364,"start2":364,"length1":17,"length2":16}]],"length":650,"saved":false}
+{"ts":1355800033473,"patch":[[{"diffs":[[0,"te Index"],[1," to Home Page"],[0,"\n    @ap"]],"start1":509,"start2":509,"length1":16,"length2":29}]],"length":663,"saved":false}
+{"ts":1355800076561,"patch":[[{"diffs":[[0,"ule\n"],[-1,"#\n"],[0,"clas"]],"start1":88,"start2":88,"length1":10,"length2":8}]],"length":661,"saved":false}

@@ -1,1 +1,12 @@
 {"ts":1355798813839,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1355800139550,"patch":[[{"diffs":[[1,"\r\n\r\nclass Home\r\n  \r\n  \r\n  constructor: =>\r\n    \r\n  \r\n  index: (req, res) =>\r\n    \r\n  \r\n# Export Singleton\r\nmodule.exports = new Home()"]],"start1":0,"start2":0,"length1":0,"length2":134}]],"length":134,"saved":false}
+{"ts":1355800141983,"patch":[[{"diffs":[[0,"\r\nclass "],[-1,"Hom"],[1,"Cor"],[0,"e\r\n  \r\n "]],"start1":2,"start2":2,"length1":19,"length2":19}]],"length":134,"saved":false}
+{"ts":1355800333233,"patch":[[{"diffs":[[0,"\r\n"],[1,"# \r\n#"],[0,"\r\nclass "]],"start1":0,"start2":0,"length1":10,"length2":15}]],"length":139,"saved":false}
+{"ts":1355800340443,"patch":[[{"diffs":[[0,"\r\n# "],[1,"Core Module"],[0,"\r\n#\r\ncla"]],"start1":0,"start2":0,"length1":12,"length2":23}]],"length":150,"saved":false}
+{"ts":1355800354830,"patch":[[{"diffs":[[0,"Module\r\n"],[1,"# \r\n#\r\n"],[0,"#\r\nclass"]],"start1":9,"start2":9,"length1":16,"length2":23}]],"length":157,"saved":false}
+{"ts":1355800390338,"patch":[[{"diffs":[[0,"dule\r\n# "],[1,"Builds the backbone of the app "],[0,"\r\n#\r\n#\r\n"]],"start1":11,"start2":11,"length1":16,"length2":47}]],"length":188,"saved":false}
+{"ts":1355800409226,"patch":[[{"diffs":[[0,"\n# B"],[-1,"uilds the b"],[0,"ackb"]],"start1":16,"start2":16,"length1":19,"length2":8}]],"length":177,"saved":false}
+{"ts":1355800417608,"patch":[[{"diffs":[[0,"e Module"],[-1,"\r\n#"],[1," --"],[0," Backbon"]],"start1":7,"start2":7,"length1":19,"length2":19}]],"length":177,"saved":false}
+{"ts":1355800529951,"patch":[[{"diffs":[[0,"new "],[-1,"Hom"],[1,"Cor"],[0,"e()"]],"start1":167,"start2":167,"length1":10,"length2":10}]],"length":177,"saved":false}
+{"ts":1355800557347,"patch":[[{"diffs":[[1,"\r\n\r\n"],[0,"\r\n# Core Mod"]],"start1":0,"start2":0,"length1":12,"length2":16}]],"length":181,"saved":false}
+{"ts":1355800579815,"patch":[[{"diffs":[[-1,"\r\n\r\n"],[0,"\r\n# Core"]],"start1":0,"start2":0,"length1":12,"length2":8}]],"length":177,"saved":false}

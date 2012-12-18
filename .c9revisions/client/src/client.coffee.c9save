@@ -1,0 +1,32 @@
+{"ts":1355800710878,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1355800715667,"patch":[[{"diffs":[[1,"\n\nclass "]],"start1":0,"start2":0,"length1":0,"length2":8}]],"length":8,"saved":false}
+{"ts":1355800721534,"patch":[[{"diffs":[[0,"\n\nclass "],[1,"Client"]],"start1":0,"start2":0,"length1":8,"length2":14}]],"length":14,"saved":false}
+{"ts":1355800732475,"patch":[[{"diffs":[[0,"s Client"],[1,"\n  "]],"start1":6,"start2":6,"length1":8,"length2":11}]],"length":17,"saved":false}
+{"ts":1355800798647,"patch":[[{"diffs":[[0,"lient\n  "],[1,"\n  \n  constructor: =>\n    "]],"start1":9,"start2":9,"length1":8,"length2":34}]],"length":43,"saved":false}
+{"ts":1355801139515,"patch":[[{"diffs":[[0," =>\n    "],[1,"\n  \n  \n    "]],"start1":35,"start2":35,"length1":8,"length2":19}]],"length":54,"saved":false}
+{"ts":1355801233229,"patch":[[{"diffs":[[0,"  \n  \n  "],[1,"initRequire = ->\n    \n\nclass Home\n  \n  \n  constructor: =>\n    \n  \n  index: (req, res) =>\n    \n  \n# Export Singleton\nmodule.exports = new Home()"],[0,"\n    "]],"start1":41,"start2":41,"length1":13,"length2":156}]],"length":197,"saved":false}
+{"ts":1355801234692,"patch":[[{"diffs":[[0,"    "],[-1,"\n\nclass Home\n  \n  \n  constructor: =>\n    \n  \n  index: (req, res) =>\n    \n  \n# Export Singleton\nmodule.exports = new Home()"],[0,"\n   "]],"start1":66,"start2":66,"length1":130,"length2":8}]],"length":75,"saved":false}
+{"ts":1355801308912,"patch":[[{"diffs":[[0,"\n  \n"],[-1,"  initRequire = ->\n    \n"],[0,"    "]],"start1":43,"start2":43,"length1":32,"length2":8}]],"length":51,"saved":false}
+{"ts":1355801338527,"patch":[[{"diffs":[[0,"=>\n    \n"],[1,"    requirejs.config\n      \n"],[0,"  \n    "]],"start1":36,"start2":36,"length1":15,"length2":43}]],"length":79,"saved":false}
+{"ts":1355801362159,"patch":[[{"diffs":[[0,"s.config"],[1,"({\n      \n    })"],[0,"\n      \n"]],"start1":56,"start2":56,"length1":16,"length2":32}]],"length":95,"saved":false}
+{"ts":1355801377843,"patch":[[{"diffs":[[0,"fig({\n      "],[1,"baseUrl: 'js/lib'"],[0,"\n    })\n    "]],"start1":61,"start2":61,"length1":24,"length2":41}]],"length":112,"saved":false}
+{"ts":1355801778992,"patch":[[{"diffs":[[0,"\n    })\n"],[1,"    \n    \n"],[0,"      \n "]],"start1":90,"start2":90,"length1":16,"length2":26}]],"length":122,"saved":false}
+{"ts":1355801884712,"patch":[[{"diffs":[[0,"   \n    "],[-1,"  "],[0,"\n  \n    "]],"start1":104,"start2":104,"length1":18,"length2":16}]],"length":120,"saved":false}
+{"ts":1355802036612,"patch":[[{"diffs":[[-1,"\n\nclass Client\n  \n  \n  constructor: =>\n    \n    "],[0,"requ"]],"start1":0,"start2":0,"length1":52,"length2":4},{"diffs":[[0,"\n    })\n"],[1,"\n\nclass Client\n  \n  \n  constructor: =>\n    \n    \n"],[0,"    \n   "]],"start1":42,"start2":42,"length1":16,"length2":65}]],"length":121,"saved":false}
+{"ts":1355802039602,"patch":[[{"diffs":[[0,"onfig({\n"],[-1,"    "],[0,"  baseUr"]],"start1":11,"start2":11,"length1":20,"length2":16},{"diffs":[[0,"js/lib'\n"],[-1,"    "],[0,"})\n\n\ncla"]],"start1":31,"start2":31,"length1":20,"length2":16}]],"length":113,"saved":false}
+{"ts":1355802046956,"patch":[[{"diffs":[[0,"nfig"],[-1,"("],[1," "],[0,"{\n  "]],"start1":12,"start2":12,"length1":9,"length2":9},{"diffs":[[0,"b'\n}"],[-1,")"],[0,"\n\n\nc"]],"start1":36,"start2":36,"length1":9,"length2":8}]],"length":112,"saved":false}
+{"ts":1355802094236,"patch":[[{"diffs":[[0,"lib'\n}\n\n"],[1,"requirejs [\n  \n], \n"],[0,"\nclass C"]],"start1":34,"start2":34,"length1":16,"length2":35}]],"length":131,"saved":false}
+{"ts":1355802106321,"patch":[[{"diffs":[[0,"[\n  \n], "],[1,"() -> "],[0,"\n\nclass "]],"start1":52,"start2":52,"length1":16,"length2":22}]],"length":137,"saved":false}
+{"ts":1355802115138,"patch":[[{"diffs":[[0,"], () ->"],[1,"\n "],[0," \n\nclass"]],"start1":57,"start2":57,"length1":16,"length2":18}]],"length":139,"saved":false}
+{"ts":1355802160674,"patch":[[{"diffs":[[0,"ejs [\n  "],[1,"'jquery', "],[0,"\n], () -"]],"start1":48,"start2":48,"length1":16,"length2":26}]],"length":149,"saved":false}
+{"ts":1355802234149,"patch":[[{"diffs":[[1,"\n# Configure RequireJS\n"],[0,"requirejs.config"]],"start1":0,"start2":0,"length1":16,"length2":39}]],"length":172,"saved":false}
+{"ts":1355802238545,"patch":[[{"diffs":[[0,"lib'\n}\n\n"],[1,"# \n"],[0,"requirej"]],"start1":57,"start2":57,"length1":16,"length2":19}]],"length":175,"saved":false}
+{"ts":1355802267733,"patch":[[{"diffs":[[0,"b'\n}\n\n# "],[1,"Run Client"],[0,"\nrequire"]],"start1":59,"start2":59,"length1":16,"length2":26}]],"length":185,"saved":false}
+{"ts":1355802282329,"patch":[[{"diffs":[[0,"query', "],[1,"'ember', 'underscore'"],[0,"\n], () -"]],"start1":94,"start2":94,"length1":16,"length2":37}]],"length":206,"saved":false}
+{"ts":1355802345927,"patch":[[{"diffs":[[0,"re'\n], ("],[1,"$, "],[0,") ->\n  \n"]],"start1":120,"start2":120,"length1":16,"length2":19}]],"length":209,"saved":false}
+{"ts":1355802721259,"patch":[[{"diffs":[[0,"', '"],[-1,"ember"],[1,"underscore"],[0,"', '"]],"start1":99,"start2":99,"length1":13,"length2":18}]],"length":214,"saved":false}
+{"ts":1355802735357,"patch":[[{"diffs":[[0,"l: '"],[-1,"js/lib"],[1,"../js"],[0,"'\n}\n"]],"start1":50,"start2":50,"length1":14,"length2":13}]],"length":213,"saved":false}
+{"ts":1355802748590,"patch":[[{"diffs":[[0,"js [\n  '"],[1,"lib/"],[0,"jquery',"]],"start1":84,"start2":84,"length1":16,"length2":20}]],"length":217,"saved":false}
+{"ts":1355802751940,"patch":[[{"diffs":[[0,"b/jquery', '"],[1,"lib/"],[0,"underscore',"]],"start1":94,"start2":94,"length1":24,"length2":28}]],"length":221,"saved":false}
+{"ts":1355802754403,"patch":[[{"diffs":[[0,"core', '"],[1,"lib/"],[0,"undersco"]],"start1":116,"start2":116,"length1":16,"length2":20}]],"length":225,"saved":false}
+{"ts":1355802763110,"patch":[[{"diffs":[[0,"'\n], ($,"],[1," _,"],[0," ) ->\n  "]],"start1":138,"start2":138,"length1":16,"length2":19}]],"length":228,"saved":false}

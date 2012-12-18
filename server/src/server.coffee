@@ -4,9 +4,10 @@ express  = require('express')
 _        = require('underscore')
 
 
+# Server Module
 class Server
   
-  
+  # Initialize
   constructor: =>
     
     # Init Express App
@@ -19,13 +20,13 @@ class Server
     # Load Modules
     @modules = {}
     _.each [
-       'core', 'home', 'blog'
+      'core', 'home', 'blog'
     ], ->
       module = @modules[mod] = require("./modules/#{mod}")
       module.init(this)
       
     
-    # Route Index
+    # Route Index to Home Page
     @app.get '/',  @modules.home.index
 
 
