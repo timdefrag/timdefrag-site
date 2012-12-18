@@ -1,0 +1,15 @@
+{"ts":1355805669428,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1355805724061,"patch":[[{"diffs":[[1,"define [\n  \n], "]],"start1":0,"start2":0,"length1":0,"length2":15}]],"length":15,"saved":false}
+{"ts":1355805732694,"patch":[[{"diffs":[[0,"define"],[1," 'Core'"],[0," [\n  \n],"]],"start1":0,"start2":0,"length1":14,"length2":21}]],"length":22,"saved":false}
+{"ts":1355805734949,"patch":[[{"diffs":[[0,"ne '"],[-1,"C"],[1,"c"],[0,"ore'"]],"start1":4,"start2":4,"length1":9,"length2":9}]],"length":22,"saved":false}
+{"ts":1355805738541,"patch":[[{"diffs":[[0,"e 'core'"],[1,","],[0," [\n  \n],"]],"start1":5,"start2":5,"length1":16,"length2":17}]],"length":23,"saved":false}
+{"ts":1355805803876,"patch":[[{"diffs":[[0,"e 'c"],[-1,"ore"],[1,"lient"],[0,"', ["],[1,"\r"],[0,"\n  "],[-1,"\n], "],[1,"'lib/require'\r\n  'lib/jquery'\r\n  'lib/underscore'\r\n  'lib/ember'\r\n], (require, $, _, Ember) ->"]],"start1":5,"start2":5,"length1":18,"length2":111}]],"length":116,"saved":false}
+{"ts":1355805807440,"patch":[[{"diffs":[[0,"e 'c"],[-1,"lient"],[1,"ore"],[0,"', ["]],"start1":5,"start2":5,"length1":13,"length2":11}]],"length":114,"saved":false}
+{"ts":1355805821368,"patch":[[{"diffs":[[0,"mber) ->"],[1,"\r\n  "]],"start1":106,"start2":106,"length1":8,"length2":12}]],"length":118,"saved":false}
+{"ts":1355805873841,"patch":[[{"diffs":[[0," [\r\n"],[-1,"  'lib/require'\r\n"],[0,"  'l"]],"start1":14,"start2":14,"length1":25,"length2":8}]],"length":101,"saved":false}
+{"ts":1355805879054,"patch":[[{"diffs":[[0,"], ("],[-1,"require, "],[0,"$, _"]],"start1":69,"start2":69,"length1":17,"length2":8}]],"length":92,"saved":false}
+{"ts":1355805901914,"patch":[[{"diffs":[[0,"mber) ->\r\n  "],[1,"\r\n  class Core\r\n    \r\n    constructor: =>\r\n      \r\n      \r\n    \r\n  "]],"start1":80,"start2":80,"length1":12,"length2":79}]],"length":159,"saved":false}
+{"ts":1355805928598,"patch":[[{"diffs":[[0,"      \r\n    \r\n  "],[1,"# Export Module\r\n  new Core()"]],"start1":143,"start2":143,"length1":16,"length2":45}]],"length":188,"saved":false}
+{"ts":1355805934946,"patch":[[{"diffs":[[0,"->\r\n  \r\n"],[1,"  #\r\n  #\r\n"],[0,"  class "]],"start1":86,"start2":86,"length1":16,"length2":26}]],"length":198,"saved":false}
+{"ts":1355805979834,"patch":[[{"diffs":[[0," ->\r\n  \r\n  #"],[1," Backbone of the app."],[0,"\r\n  #\r\n  cla"]],"start1":85,"start2":85,"length1":24,"length2":45}]],"length":219,"saved":false}
+{"ts":1355806045473,"patch":[[{"diffs":[[0,"=>\r\n      \r\n"],[1,"    \r\n    \r\n"],[0,"      \r\n    "]],"start1":162,"start2":162,"length1":24,"length2":36}]],"length":231,"saved":false}
