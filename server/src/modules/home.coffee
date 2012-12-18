@@ -3,7 +3,7 @@
 class Home
   
   
-  constructor: =>
+  constructor: ->
     
   
   index: (req, res) =>

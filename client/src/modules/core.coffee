@@ -8,8 +8,10 @@ define 'core', [
   #
   class Core
     
-    constructor: =>
+    constructor: ->
       
+      
+    
     
     
       

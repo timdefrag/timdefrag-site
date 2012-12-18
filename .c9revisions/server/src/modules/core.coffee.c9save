@@ -10,3 +10,4 @@
 {"ts":1355800529951,"patch":[[{"diffs":[[0,"new "],[-1,"Hom"],[1,"Cor"],[0,"e()"]],"start1":167,"start2":167,"length1":10,"length2":10}]],"length":177,"saved":false}
 {"ts":1355800557347,"patch":[[{"diffs":[[1,"\r\n\r\n"],[0,"\r\n# Core Mod"]],"start1":0,"start2":0,"length1":12,"length2":16}]],"length":181,"saved":false}
 {"ts":1355800579815,"patch":[[{"diffs":[[-1,"\r\n\r\n"],[0,"\r\n# Core"]],"start1":0,"start2":0,"length1":12,"length2":8}]],"length":177,"saved":false}
+{"ts":1355807423581,"patch":[[{"diffs":[[0,"ructor: "],[-1,"="],[1,"-"],[0,">\r\n    \r"]],"start1":74,"start2":74,"length1":17,"length2":17}]],"length":177,"saved":false}

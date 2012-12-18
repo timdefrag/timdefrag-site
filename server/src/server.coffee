@@ -8,22 +8,22 @@ _        = require('underscore')
 class Server
   
   # Initialize
-  constructor: =>
+  constructor: ->
     
     # Init Express App
     @app = express()
     @app.configure =>
       @app.use express.static(__dirname + '/../../client/public')
-      @app.use app.router
+      @app.use @app.router
     
     
     # Load Modules
     @modules = {}
     _.each [
       'core', 'home', 'blog'
-    ], ->
-      module = @modules[mod] = require("./modules/#{mod}")
-      module.init(this)
+    ], (m) =>
+      module = @modules[m] = require("./modules/#{m}")
+      module.init?(this)
       
     
     # Route Index to Home Page

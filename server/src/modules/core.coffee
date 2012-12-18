@@ -5,7 +5,7 @@
 class Core
   
   
-  constructor: =>
+  constructor: ->
     
   
   index: (req, res) =>

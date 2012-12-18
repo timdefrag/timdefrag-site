@@ -13,3 +13,10 @@
 {"ts":1355805934946,"patch":[[{"diffs":[[0,"->\r\n  \r\n"],[1,"  #\r\n  #\r\n"],[0,"  class "]],"start1":86,"start2":86,"length1":16,"length2":26}]],"length":198,"saved":false}
 {"ts":1355805979834,"patch":[[{"diffs":[[0," ->\r\n  \r\n  #"],[1," Backbone of the app."],[0,"\r\n  #\r\n  cla"]],"start1":85,"start2":85,"length1":24,"length2":45}]],"length":219,"saved":false}
 {"ts":1355806045473,"patch":[[{"diffs":[[0,"=>\r\n      \r\n"],[1,"    \r\n    \r\n"],[0,"      \r\n    "]],"start1":162,"start2":162,"length1":24,"length2":36}]],"length":231,"saved":false}
+{"ts":1355807232123,"patch":[[{"diffs":[[0,"or: "],[-1,"="],[1,"-"],[0,">\r\n "]],"start1":158,"start2":158,"length1":9,"length2":9}]],"length":231,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1355808935079,"patch":[[{"diffs":[[0,"or: ->\r\n      \r\n"],[1,"      \r\n    \r\n"],[0,"    \r\n    \r\n    "]],"start1":158,"start2":158,"length1":32,"length2":46}]],"length":245,"saved":false}
+{"ts":1355809559669,"patch":[[{"diffs":[[0,"ort "],[-1,"Module"],[1,"Class"],[0,"\r\n  "]],"start1":221,"start2":221,"length1":14,"length2":13}]],"length":244,"saved":false}
+{"ts":1355809567544,"patch":[[{"diffs":[[0," Export "],[1,"Module "],[0,"Class\r\n "]],"start1":217,"start2":217,"length1":16,"length2":23}]],"length":251,"saved":false}
+{"ts":1355809572361,"patch":[[{"diffs":[[0,"\r\n  "],[-1,"new "],[0,"Core"],[-1,"()"]],"start1":237,"start2":237,"length1":14,"length2":8}]],"length":245,"saved":false}
+{"ts":1355809607289,"patch":[[{"diffs":[[0,"lass\r\n  "],[1,"new "],[0,"Core"],[1,"()"]],"start1":233,"start2":233,"length1":12,"length2":18}]],"length":251,"saved":false}
+{"ts":1355809609412,"patch":[[{"diffs":[[0,"dule"],[-1," Class"],[0,"\r\n  "]],"start1":227,"start2":227,"length1":14,"length2":8}]],"length":245,"saved":false}

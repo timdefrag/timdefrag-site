@@ -12,28 +12,33 @@ define 'client', [
   'lib/ember'
 ], (require, $, _, Ember) ->
   
+  #
+  #
   class Client
     
-    constructor: =>
+    #
+    #
+    constructor: ->
       
-      # Init EmberJS
+      # Create EmberJS App
+      @app = Ember.Application.create()
       
       
       # Load Modules
       @modules = []
       _.each [
-        'core', 'home', 'blog'
-      ], (id) =>
-        require "modules/#{id}", (module) ->
-          module.init?(this)
-          @modules.push(module)
-        
+        (module) => 
+      ], (fn) ->
+        _.each [
+          'core', 'home', 'blog'
+        ], (id) =>
+          require(id, fn)
+          
+      
+      # Initialize EmberJS App
+      @app.initialize()
         
     
-      
-      
-    
-  
   # Export client object
   new Client()
   
