@@ -10,9 +10,6 @@ app = express()
 # default config
 app.configure ->
   
-  # Views and templating
-  app.set('views', __dirname + '/view')
-  app.set('view engine', 
   
   # forward public file requests
   app.use(express.static(__dirname + '/../public'))

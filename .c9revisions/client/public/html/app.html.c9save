@@ -1,0 +1,8 @@
+{"ts":1355788305429,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1355788388913,"patch":[[{"diffs":[[1,"<html>\n  \n</html>"]],"start1":0,"start2":0,"length1":0,"length2":17}]],"length":17,"saved":false}
+{"ts":1355788398376,"patch":[[{"diffs":[[0,"html>\n  "],[1,"<head>\n    \n  </head>\n  <body>\n    \n  </body>"],[0,"\n</html>"]],"start1":1,"start2":1,"length1":16,"length2":61}]],"length":62,"saved":false}
+{"ts":1355788460169,"patch":[[{"diffs":[[0," <head>\n    "],[1,"<script data-main=\"scripts/main\" src=\"scripts/require.js\"></script>"],[0,"\n  </head>\n "]],"start1":8,"start2":8,"length1":24,"length2":91}]],"length":129,"saved":false}
+{"ts":1355788568534,"patch":[[{"diffs":[[0,"in=\""],[-1,"scripts/main\" src=\"scripts"],[1,"js/\" src=\"js/lib"],[0,"/req"]],"start1":35,"start2":35,"length1":34,"length2":24}]],"length":119,"saved":false}
+{"ts":1355788572824,"patch":[[{"diffs":[[0,"/require"],[1,"-2.1.2"],[0,".js\"></s"]],"start1":55,"start2":55,"length1":16,"length2":22}]],"length":125,"saved":false}
+{"ts":1355788650550,"patch":[[{"diffs":[[0,"ain=\"js/"],[1,"app.js"],[0,"\" src=\"j"]],"start1":34,"start2":34,"length1":16,"length2":22}]],"length":131,"saved":false}
+{"ts":1355788684530,"patch":[[{"diffs":[[0,"dy>\n"],[-1,"    \n"],[0,"  </"]],"start1":105,"start2":105,"length1":13,"length2":8}]],"length":126,"saved":false}
