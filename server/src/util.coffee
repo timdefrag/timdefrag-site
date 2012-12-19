@@ -21,30 +21,26 @@ class Util
   #
   # @param 
   #
-  recurseDir: (dir, opts = null) =>
+  findFiles: (dir, opts = null) =>
     opts = _.defaults (opts ?= {}), 
       filter  : (path) -> true
       recurse : true
       dirs    : false
     
     files = (path) ->
-      if fs.lstatSync(path).isDirectory()
-        _.reduce [
-          -> if opts.dirs     then [path]       else []
-          -> if opts.recurse  then files(path)  else []
-        ], (ls, fn) -> ls.concat(fn()), []
-      else
-        [path]
+      if fs.lstatSync(path).isDirectory()  then  _.reduce(
+        [ (ps) -> if opts.dirs     then  ps.push path,
+          (ps) -> if opts.recurse  then  ps.concat( 
+            _.chain(fs.readdirSync path)
+            .map (path) -> files(path)
+            .reduce (a, fs) -> a.concat p,  []  )],
+        (paths, fn) -> fn(paths), [] )
+      else [path]
     
     _.chain(files(dir))
     .flatten()
     .filter(opts.filter)
     .value()
-        
-        
-        
-        
-        
         
         
 # Export utility functions
