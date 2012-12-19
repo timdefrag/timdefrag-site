@@ -11,3 +11,11 @@
 {"ts":1355800557347,"patch":[[{"diffs":[[1,"\r\n\r\n"],[0,"\r\n# Core Mod"]],"start1":0,"start2":0,"length1":12,"length2":16}]],"length":181,"saved":false}
 {"ts":1355800579815,"patch":[[{"diffs":[[-1,"\r\n\r\n"],[0,"\r\n# Core"]],"start1":0,"start2":0,"length1":12,"length2":8}]],"length":177,"saved":false}
 {"ts":1355807423581,"patch":[[{"diffs":[[0,"ructor: "],[-1,"="],[1,"-"],[0,">\r\n    \r"]],"start1":74,"start2":74,"length1":17,"length2":17}]],"length":177,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1355906021524,"patch":[[{"diffs":[[0,"the "],[-1,"app"],[1,"server"],[0," \r\n#"]],"start1":31,"start2":31,"length1":11,"length2":14}]],"length":180,"saved":false}
+{"ts":1355906038426,"patch":[[{"diffs":[[0,"\r\n#\r\n#\r\n"],[1,"module.exports = "],[0,"class Co"]],"start1":42,"start2":42,"length1":16,"length2":33}]],"length":197,"saved":false}
+{"ts":1355906046826,"patch":[[{"diffs":[[0,"\r\n  "],[-1,"index: (req, res) =>"],[0,"\r\n  "]],"start1":114,"start2":114,"length1":28,"length2":8}]],"length":177,"saved":false}
+{"ts":1355906050320,"patch":[[{"diffs":[[0,"  \r\n"],[-1,"  \r\n# Export Singleton\r\nmodule.exports = new Core()"]],"start1":122,"start2":122,"length1":55,"length2":4}]],"length":126,"saved":false}
+{"ts":1355906091661,"patch":[[{"diffs":[[1,"module.exports =\r\n\r\n"],[0,"\r\n# Core"]],"start1":0,"start2":0,"length1":8,"length2":28},{"diffs":[[0,"\r\n#\r\n#\r\n"],[-1,"module.exports ="],[0," class C"]],"start1":62,"start2":62,"length1":32,"length2":16}]],"length":130,"saved":false}
+{"ts":1355906098023,"patch":[[{"diffs":[[0,"orts =\r\n"],[-1,"\r\n\r\n"],[0,"# Core M"]],"start1":10,"start2":10,"length1":20,"length2":16},{"diffs":[[0,"\r\n#\r\n#\r\n"],[-1," "],[0,"class Co"]],"start1":58,"start2":58,"length1":17,"length2":16}]],"length":125,"saved":false}
+{"ts":1355906373969,"patch":[[{"diffs":[[0,"tructor:"],[1," (@server)"],[0," ->\r\n   "]],"start1":92,"start2":92,"length1":16,"length2":26}]],"length":135,"saved":false}
+{"ts":1355907041790,"patch":[[{"diffs":[[0,"=\r\n#"],[-1," Core Module --"],[0," Bac"]],"start1":15,"start2":15,"length1":23,"length2":8}]],"length":120,"saved":false}

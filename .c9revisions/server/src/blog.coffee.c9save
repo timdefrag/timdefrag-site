@@ -29,3 +29,15 @@
 {"ts":1355707044809,"patch":[[{"diffs":[[0,"r('blog."],[1,"jade"],[0,"'\n\n\n# in"]],"start1":68,"start2":68,"length1":16,"length2":20}]],"length":181,"saved":false}
 {"ts":1355707680092,"patch":[[{"diffs":[[0,"og.jade'"],[1,", {\n    \n  })"],[0,"\n\n\n# ini"]],"start1":73,"start2":73,"length1":16,"length2":29}]],"length":194,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1355807695532,"patch":[[{"diffs":[[0,"s'\n\n"],[-1,"\n\n\nblogMain = (req, res) ->\n  res.render('blog.jade', {\n    \n  })\n\n\n# initialization\nmodule.exports.init = (app) ->\n  \n  # route requests\n  app.get('/blog', main)\n  "]],"start1":25,"start2":25,"length1":169,"length2":4}]],"length":29,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1355906249052,"patch":[[{"diffs":[[0,"e 'fs'\n\n"],[1,"module.exports =\n# Core Module -- Backbone of the server \n#\n#\nclass Core\n  \n  \n  constructor: ->\n    \n  \n  \n    \n"]],"start1":21,"start2":21,"length1":8,"length2":121}]],"length":142,"saved":false}
+{"ts":1355906253333,"patch":[[{"diffs":[[0,"e 'fs'\n\n"],[1,"\n"],[0,"module.e"]],"start1":21,"start2":21,"length1":16,"length2":17}]],"length":143,"saved":false}
+{"ts":1355906271375,"patch":[[{"diffs":[[0,"#"],[1," node"],[0," imports"]],"start1":0,"start2":0,"length1":9,"length2":14}]],"length":148,"saved":false}
+{"ts":1355906305002,"patch":[[{"diffs":[[0,"rts =\n# "],[-1,"Core"],[1,"Bloc"],[0," Module "]],"start1":46,"start2":46,"length1":20,"length2":20}]],"length":148,"saved":false}
+{"ts":1355906313552,"patch":[[{"diffs":[[0," =\n# Blo"],[-1,"c"],[1,"g"],[0," Module "]],"start1":49,"start2":49,"length1":17,"length2":17}]],"length":148,"saved":false}
+{"ts":1355906323498,"patch":[[{"diffs":[[0,"-- B"],[-1,"ackbone of the server"],[1,"log stuff"],[0," \n#\n"]],"start1":66,"start2":66,"length1":29,"length2":17}]],"length":136,"saved":false}
+{"ts":1355906327277,"patch":[[{"diffs":[[0,"ass "],[-1,"Core"],[1,"Blog"],[0,"\n  \n"]],"start1":87,"start2":87,"length1":12,"length2":12}]],"length":136,"saved":false}
+{"ts":1355906340687,"patch":[[{"diffs":[[0,"tructor:"],[1," (@server)"],[0," ->\n    "]],"start1":108,"start2":108,"length1":16,"length2":26}]],"length":146,"saved":false}
+{"ts":1355906693646,"patch":[[{"diffs":[[0,"og\n  \n  "],[1,"#\n  #\n  #"],[0,"\n  const"]],"start1":93,"start2":93,"length1":16,"length2":25}]],"length":155,"saved":false}
+{"ts":1355906703585,"patch":[[{"diffs":[[0," Blog\n  \n  #"],[1," Initialize blog stuff"],[0,"\n  #\n  #\n  c"]],"start1":90,"start2":90,"length1":24,"length2":46}]],"length":177,"saved":false}
+{"ts":1355906709107,"patch":[[{"diffs":[[0," =\n#"],[-1," Blog Module --"],[0," Blo"]],"start1":49,"start2":49,"length1":23,"length2":8}]],"length":162,"saved":false}
+{"ts":1355906744326,"patch":[[{"diffs":[[0,"node"],[-1," imports"],[0,"\nfs "]],"start1":2,"start2":2,"length1":16,"length2":8}]],"length":154,"saved":false}

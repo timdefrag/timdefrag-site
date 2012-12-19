@@ -311,3 +311,16 @@
 {"ts":1355905873283,"patch":[[{"diffs":[[0,"score')\n"],[1,"Express  = require('express')"],[0,"\n\n\n\n\n# S"]],"start1":36,"start2":36,"length1":16,"length2":45}]],"length":964,"saved":false}
 {"ts":1355905881058,"patch":[[{"diffs":[[0," @app = "],[-1,"e"],[1,"E"],[0,"xpress()"]],"start1":232,"start2":232,"length1":17,"length2":17},{"diffs":[[0,"      [ "],[-1,"e"],[1,"E"],[0,"xpress.s"]],"start1":288,"start2":288,"length1":17,"length2":17}]],"length":964,"saved":false}
 {"ts":1355905918425,"patch":[[{"diffs":[[0,"  )\n"],[-1,"        \n      @app.use express.static(__dirname + '/../../client/public')\n      @app.use @app.router\n"],[0,"    "]],"start1":378,"start2":378,"length1":110,"length2":8}]],"length":862,"saved":false}
+{"ts":1355906587968,"patch":[[{"diffs":[[0,"# "],[-1,"imports\n"],[1,"libs"],[0,"\n_  "]],"start1":0,"start2":0,"length1":14,"length2":10}]],"length":858,"saved":false}
+{"ts":1355906597634,"patch":[[{"diffs":[[0,"xports ="],[-1," "],[1,"\n  \n"],[0,"class Se"]],"start1":98,"start2":98,"length1":17,"length2":20}]],"length":861,"saved":false}
+{"ts":1355906623497,"patch":[[{"diffs":[[0,"ports =\n"],[-1,"  "],[1,"# Server\n#\n#"],[0,"\nclass S"]],"start1":99,"start2":99,"length1":18,"length2":28}]],"length":871,"saved":false}
+{"ts":1355906630254,"patch":[[{"diffs":[[0,")\n\n\n"],[-1,"\n\n# Server Module\n"],[0,"modu"]],"start1":68,"start2":68,"length1":26,"length2":8}]],"length":853,"saved":false}
+{"ts":1355906648105,"patch":[[{"diffs":[[0," Server\n"],[1,"  #\n  #\n"],[0,"  run: ="]],"start1":174,"start2":174,"length1":16,"length2":24}]],"length":861,"saved":false}
+{"ts":1355906661694,"patch":[[{"diffs":[[0," Server\n"],[1,"  #\n  #\n"],[0,"  stop: "]],"start1":835,"start2":835,"length1":16,"length2":24}]],"length":869,"saved":false}
+{"ts":1355906667439,"patch":[[{"diffs":[[0,"tialize\n"],[1,"  #\n  #\n"],[0,"  constr"]],"start1":125,"start2":125,"length1":16,"length2":24}]],"length":877,"saved":false}
+{"ts":1355906675012,"patch":[[{"diffs":[[0,"   @"],[-1,"start"],[1,"run"],[0,"()\n "]],"start1":160,"start2":160,"length1":13,"length2":11}]],"length":875,"saved":false}
+{"ts":1355906938596,"patch":[[{"diffs":[[0,"    "],[-1,"@run()"],[0,"\n  \n"]],"start1":159,"start2":159,"length1":14,"length2":8}]],"length":869,"saved":false}
+{"ts":1355907261226,"patch":[[{"diffs":[[0,"    (u) "],[-1,"-"],[1,"="],[0,"> @app.u"]],"start1":356,"start2":356,"length1":17,"length2":17}]],"length":869,"saved":false}
+{"ts":1355907336083,"patch":[[{"diffs":[[0,"s/#{"],[-1,"nam"],[1,"modul"],[0,"e}\")"]],"start1":547,"start2":547,"length1":11,"length2":13}]],"length":871,"saved":false}
+{"ts":1355907397530,"patch":[[{"diffs":[[0," \"./"],[-1,"modules/"],[0,"#{mo"]],"start1":537,"start2":537,"length1":16,"length2":8}]],"length":863,"saved":false}
+{"ts":1355908529065,"patch":[[{"diffs":[[0,"module) "],[-1,"-"],[1,"="],[0,">\n      "]],"start1":477,"start2":477,"length1":17,"length2":17}]],"length":863,"saved":false}

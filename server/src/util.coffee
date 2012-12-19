@@ -1,14 +1,19 @@
-# imports
+# node
 fs      = require 'fs'
 
+# libs
 _       = require 'underscore'
 Stylus  = require 'stylus'
-Coffee  = require 'coffeescript'
+Coffee  = require 'coffee-script'
 
 
-module.exports = class Util
+module.exports =
+# Global utilities
+#
+#
+class Util
   
-  constructor: ->
+  constructor: (@server) ->
     
   
   
@@ -19,12 +24,10 @@ module.exports = class Util
   
   # Generate new client.css file from Stylus source.
   compilePublicCSS: =>
-    Stylus.render '', {
-      filename: 'client/public/css/client.css'
-      paths:
-        @findFiles 'client/stylus', {
-          filter: (path) ->
-            _.last(path.split '.') == 'styl'  }}
+    Stylus.render(
+      fs.readFileSync('client/stylus/client.styl', 'utf-8'),
+      (err, css) ->
+        fs.writeFileSync('client/public/css/client.css', css)  )
   
   
   
@@ -43,12 +46,19 @@ module.exports = class Util
     # Path tree builder
     files = (path) ->
       if fs.lstatSync(path).isDirectory()  then  _.reduce(
-        [ ((ps) -> if opts.dirs     then  ps.push path)
-          ((ps) -> if opts.recurse  then  ps.concat( 
-            _.chain(fs.readdirSync path)
-            .map (path) -> files(path)
-            .reduce (a, fs) -> a.concat p,  []  ))],
-        (paths, fn) -> fn(paths), [] )
+        [ (ps) ->
+            if opts.dirs
+              ps.push path
+          (ps) ->
+            if opts.recurse
+              ps.concat( 
+                _.chain fs.readdirSync(path)
+                .map (path) -> files(path)
+                .reduce ((a, fs) -> a.concat fs),  []  )],
+        ((paths, fn) ->
+          fn paths
+          paths  ), 
+        [] )
       else [path]
     
     # Flatten, filter, return
@@ -56,11 +66,6 @@ module.exports = class Util
     .flatten()
     .filter(opts.filter)
     .value()
-        
-        
-# Export utility functions
-module.exports = new Util()
-  
   
     
     

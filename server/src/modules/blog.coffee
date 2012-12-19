@@ -1,3 +1,0 @@
-# imports
-fs = require 'fs'
-

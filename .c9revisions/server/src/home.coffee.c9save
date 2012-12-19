@@ -8,3 +8,10 @@
 {"ts":1355798895088,"patch":[[{"diffs":[[0,"    \n  \n"],[1,"  index: =>\n    \n  \n"],[0,"# Export"]],"start1":37,"start2":37,"length1":16,"length2":36}]],"length":111,"saved":false}
 {"ts":1355799008070,"patch":[[{"diffs":[[0,"  index:"],[1," (req, res)"],[0," =>\n    "]],"start1":45,"start2":45,"length1":16,"length2":27}]],"length":122,"saved":false}
 {"ts":1355807427336,"patch":[[{"diffs":[[0,"ructor: "],[-1,"="],[1,"-"],[0,">\n    \n "]],"start1":26,"start2":26,"length1":17,"length2":17}]],"length":122,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1355906125735,"patch":[[{"diffs":[[1,"module.exports ="],[0,"\n\nclass "]],"start1":0,"start2":0,"length1":8,"length2":24}]],"length":138,"saved":false}
+{"ts":1355906160125,"patch":[[{"diffs":[[0,"ports =\n"],[1,"#\n#\n#"],[0,"\nclass H"]],"start1":9,"start2":9,"length1":16,"length2":21}]],"length":143,"saved":false}
+{"ts":1355906163959,"patch":[[{"diffs":[[0,"orts =\n#"],[1," "],[0,"\n#\n#\ncla"]],"start1":10,"start2":10,"length1":16,"length2":17}]],"length":144,"saved":false}
+{"ts":1355906175631,"patch":[[{"diffs":[[0,"rts =\n# "],[1,"Frontpage Module"],[0,"\n#\n#\ncla"]],"start1":11,"start2":11,"length1":16,"length2":32}]],"length":160,"saved":false}
+{"ts":1355906190808,"patch":[[{"diffs":[[0,"\n  \n"],[-1,"# Export Singleton\nmodule.exports = new Home()"]],"start1":110,"start2":110,"length1":50,"length2":4}]],"length":114,"saved":false}
+{"ts":1355906195905,"patch":[[{"diffs":[[0,"    \n  \n"],[1,"  \n"],[0,"  index:"]],"start1":75,"start2":75,"length1":16,"length2":19}]],"length":117,"saved":false}
+{"ts":1355906381855,"patch":[[{"diffs":[[0,"tructor:"],[1," (@server)"],[0," ->\n    "]],"start1":63,"start2":63,"length1":16,"length2":26}]],"length":127,"saved":false}

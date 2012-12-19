@@ -1,19 +1,23 @@
-# imports
-
+# libs
 _        = require('underscore')
 Express  = require('express')
 
 
-
-
-# Server Module
-module.exports = class Server
+module.exports =
+# Server
+#
+#
+class Server
   
   # Initialize
+  #
+  #
   constructor: ->
-    @start()
+    
   
   # Run Server
+  #
+  #
   run: =>
     
     # Init Express App
@@ -22,15 +26,15 @@ module.exports = class Server
       _.each(
         [ Express.static('client/public')
           @app.router ],
-        (u) -> @app.use u  )
+        (u) => @app.use u  )
     
     
     # Load Modules
       _.each(
         [ 'util', 'core', 'home', 'blog' ],
-        (module) ->
+        (module) =>
           this[module] =
-            new (require "./modules/#{name}")(this)  )
+            new (require "./#{module}")(this)  )
     
     
     # Prepare public assets
@@ -47,6 +51,8 @@ module.exports = class Server
     
     
   # Shutdown Server
+  #
+  #
   stop: =>
     
 
