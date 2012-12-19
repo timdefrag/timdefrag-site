@@ -6,13 +6,16 @@ Stylus  = require 'stylus'
 Coffee  = require 'coffeescript'
 
 
-class Util
+module.exports = class Util
   
   constructor: ->
     
+  
+  
   # Generate new client.js file from CoffeeScript source.
   compilePublicJS: =>
     
+  
   
   # Generate new client.css file from Stylus source.
   compilePublicCSS: =>
@@ -22,8 +25,8 @@ class Util
         @findFiles 'client/stylus', {
           filter: (path) ->
             _.last(path.split '.') == 'styl'  }}
-      
-    
+  
+  
   
   # Build a list of files contained in a directory
   #

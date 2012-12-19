@@ -1,36 +1,53 @@
 # imports
 
-express  = require('express')
 _        = require('underscore')
+Express  = require('express')
+
+
 
 
 # Server Module
-class Server
+module.exports = class Server
   
   # Initialize
   constructor: ->
+    @start()
+  
+  # Run Server
+  run: =>
     
     # Init Express App
-    @app = express()
+    @app = Express()
     @app.configure =>
-      @app.use express.static(__dirname + '/../../client/public')
-      @app.use @app.router
+      _.each(
+        [ Express.static('client/public')
+          @app.router ],
+        (u) -> @app.use u  )
     
     
     # Load Modules
-    @modules = {}
-    _.each [
-      'core', 'home', 'blog'
-    ], (m) =>
-      module = @modules[m] = require("./modules/#{m}")
-      module.init?(this)
-      
+      _.each(
+        [ 'util', 'core', 'home', 'blog' ],
+        (module) ->
+          this[module] =
+            new (require "./modules/#{name}")(this)  )
     
-    # Route Index to Home Page
-    @app.get '/',  @modules.home.index
+    
+    # Prepare public assets
+    @util.compilePublicJS()
+    @util.compilePublicCSS()
+    
+    
+    # Route Index to Home Index
+    @app.get '/',  @home.index
+    
+    
+    # Listen for Requests
+    server.app.listen(process.env.PORT);
+    
+    
+  # Shutdown Server
+  stop: =>
+    
 
-
-# Run Server
-server = module.exports = new Server();
-server.app.listen(process.env.PORT);
 
