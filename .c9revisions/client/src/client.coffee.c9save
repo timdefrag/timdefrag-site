@@ -118,3 +118,4 @@
 {"ts":1355809509629,"patch":[[{"diffs":[[0," (id) =>"],[-1,"\n         "],[0," require"]],"start1":476,"start2":476,"length1":26,"length2":16}]],"length":633,"saved":false}
 {"ts":1355809512094,"patch":[[{"diffs":[[0," (id) =>"],[1,"\n         "],[0," require"]],"start1":476,"start2":476,"length1":16,"length2":26}]],"length":643,"saved":false}
 {"ts":1355809598192,"patch":[[{"diffs":[[0,"h [\n        "],[1,"(module) => "],[0,"\n      ], (f"]],"start1":386,"start2":386,"length1":24,"length2":36}]],"length":655,"saved":false}
+{"ts":1355853127655,"patch":[[{"diffs":[[-1,"# Configure RequireJS\nrequire.config {\n  baseUrl: '../js'\n}\n\n\n# Client\ndefine 'client', [\n  'lib/require'\n  'lib/jquery'\n  'lib/underscore'\n  'lib/ember'\n], (require, $, _, Ember) ->"],[0,"\n  \n"]],"start1":0,"start2":0,"length1":186,"length2":4}]],"length":474,"saved":false}

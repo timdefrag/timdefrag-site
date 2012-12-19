@@ -1,16 +1,4 @@
-# Configure RequireJS
-require.config {
-  baseUrl: '../js'
-}
 
-
-# Client
-define 'client', [
-  'lib/require'
-  'lib/jquery'
-  'lib/underscore'
-  'lib/ember'
-], (require, $, _, Ember) ->
   
   #
   #
@@ -27,7 +15,7 @@ define 'client', [
       # Load Modules
       @modules = []
       _.each [
-        (module) => 
+        #(module) => 
       ], (fn) ->
         _.each [
           'core', 'home', 'blog'
