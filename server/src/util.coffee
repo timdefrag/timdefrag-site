@@ -37,8 +37,8 @@ class Util
     # Serially execute compile phases
     console.log('Compiling Client App ...')
     Async.forEach \
-      [ (done) ->
-          console.log('Styl -> Css ...')
+      [ (done) =>
+          console.log('  Styl -> Css ...')
           file = opts.stylPath + '/index.styl'
           Stylus.render \
             fs.readFileSync(file, 'utf-8'),
@@ -46,16 +46,23 @@ class Util
             (err, css) ->
               done(err)
               
-        (done) ->
-          console.log('Coffee -> JS ...')
+        (done) =>
+          console.log('  Coffee -> JS ...')
+          _.each \
+            findFiles(opts.coffeePath, {
+              filter: (path) -> path[7..] == 'coffee' }),
+            (path) =>
+              
+              
+            
           done()
           
-        (done) ->
-          console.log('Jade -> HTML ...')
+        (done) =>
+          console.log('  Jade -> HTML ...')
           done()
           
-        (done) ->
-          console.log("Compile -> #{opts.targetPath} ...")
+        (done) =>
+          console.log("  Compile -> #{opts.targetPath} ...")
           done() ],
           
       ((fn, cb) -> fn cb),
@@ -68,32 +75,46 @@ class Util
         opts.callback(err)
     
   
-  # Build a list of files contained in a directory
+  # Build a list of the paths in a directory.
   #
-  # @param 
+  # @param    [String] folder?  Search directory (default cwd.)
+  # @param  [Function] filter?  File path predicate.
+  # @param    [Object] opts?    Options.
   #
-  findFiles: (dir, opts) =>
-    opts = _.defaults (opts ? {}), 
+  # @options opts    [String] search   Search path
+  # @options opts  [Function] filter   File path predicate
+  # @options opts   [Boolean] recurse  Check subfolders?
+  # @options opts   [Boolean] dirs     Report folder names?
+  #
+  findFiles: (args...) =>
+    
+    # Defaults
+    opts = 
+      search  : ''
       filter  : (path) -> true
       recurse : true
       dirs    : false
     
-    # Path tree builder
-    files = (path) ->
+    # Arguments
+    for a in args
+      if    _.isString a  then  opts.search = a
+      if  _.isFunction a  then  opts.filter = a
+      if    _.isObject a  then  opts = _.defaults a, opts
+    
+    # Walk file tree
+    walk = (path) ->
       if fs.lstatSync(path).isDirectory()
-        _.reduce \
-          [ (ps) -> if opts.dirs
-              ps.push path
-            (ps) -> if opts.recurse
-              ps.concat \
-                _.chain fs.readdirSync(path)
-                .map (path) -> files(path)
-                .reduce ((a, fs) -> a.concat fs),  [] ],
-        ((paths, fn) ->
-          fn paths
-          paths  ), 
-        []
-      else [path]
+        ps = []
+        if opts.dirs
+          ps.push path
+        if opts.recurse
+          ps = ps.concat \
+            _.chain  fs.readdirSync(path)
+            .map     (path) -> walk(path)
+            .reduce  (a, fs) -> (a.concat fs),  []
+        ps
+      else
+        [path]
     
     # Flatten, filter, return
     _.chain files(dir)
