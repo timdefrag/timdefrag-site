@@ -1,3 +1,6 @@
+# node
+nodeUtil = require('util')
+
 # libs
 _        = require('underscore')
 Express  = require('express')
@@ -30,16 +33,15 @@ class Server
     
     
     # Load Modules
-      _.each(
+      _.each \
         [ 'util', 'core', 'home', 'blog' ],
         (module) =>
           this[module] =
-            new (require "./#{module}")(this)  )
+            new (require "./#{module}")(this)
     
     
     # Prepare public assets
-    @util.compilePublicJS()
-    @util.compilePublicCSS()
+    @util.compileClient()
     
     
     # Route Index to Home Index
@@ -47,7 +49,7 @@ class Server
     
     
     # Listen for Requests
-    server.app.listen(process.env.PORT);
+    @app.listen(process.env.PORT);
     
     
   # Shutdown Server
