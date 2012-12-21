@@ -1,0 +1,6 @@
+{"ts":1356039833328,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1356039830315,"patch":[[{"diffs":[[1,"class Home\r\n  teting = 123"]],"start1":0,"start2":0,"length1":0,"length2":26}]],"length":26,"saved":false}
+{"ts":1356040011744,"patch":[[{"diffs":[[0,"ass Home"],[1,"Module"],[0,"\r\n  teti"]],"start1":2,"start2":2,"length1":16,"length2":22}]],"length":32,"saved":false}
+{"ts":1356040044272,"patch":[[{"diffs":[[0,"Home"],[-1,"Module"],[0,"\r\n  "]],"start1":6,"start2":6,"length1":14,"length2":8}]],"length":26,"saved":false}
+{"ts":1356040129492,"patch":[[{"diffs":[[0,"\r\n  "],[-1,"teting = 123"],[1,"constructor: ->\r\n    "]],"start1":10,"start2":10,"length1":16,"length2":25}]],"length":35,"saved":false}
+{"ts":1356040137080,"patch":[[{"diffs":[[0,"->\r\n    "],[1,"alert 'hello world'"]],"start1":27,"start2":27,"length1":8,"length2":27}]],"length":54,"saved":false}

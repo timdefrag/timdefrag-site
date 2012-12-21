@@ -16,7 +16,7 @@ class Server
   #
   #
   constructor: ->
-    
+    @run()
   
   # Run Server
   #
@@ -30,7 +30,6 @@ class Server
         [ Express.static('client/public')
           @app.router ],
         (u) => @app.use u  )
-    
     
     # Load Modules
       _.each \
@@ -49,6 +48,7 @@ class Server
     
     
     # Listen for Requests
+    console.log "Listening on port #{process.env.PORT}"
     @app.listen(process.env.PORT);
     
     

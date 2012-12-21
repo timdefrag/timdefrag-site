@@ -6,6 +6,7 @@ _       = require 'underscore'
 Stylus  = require 'stylus'
 Coffee  = require 'coffee-script'
 Async   = require 'async'
+Uglify  = require 'uglify-js'
 
 
 module.exports =
@@ -29,44 +30,94 @@ class Util
     # Defaults
     opts = _.defaults (opts ? {}),
       coffeePath  : 'client/coffee'
+      jsLibPath   : 'client/jslib'
       stylPath    : 'client/stylus'
       jadePath    : 'client/jade'
       targetPath  : 'public/app.html'
       callback    : ((err) -> null)
     
     # Serially execute compile phases
+    context = 
+      compiledCSS  : ''
+      jsLibs       : ''
+      compiledJS   : ''
+      compiledHTML : ''
+      
     console.log('Compiling Client App ...')
     Async.forEach \
-      [ (done) =>
+      [ # Compile Jade source to HTML
+        (done) =>
+          console.log('  Jade -> HTML ...')
+          done()
+        
+        # Compile Stylus source to CSS
+        (done) =>
           console.log('  Styl -> Css ...')
           file = opts.stylPath + '/index.styl'
           Stylus.render \
             fs.readFileSync(file, 'utf-8'),
-            { filename: file },
+            { filename: file, compress: true },
             (err, css) ->
               done(err)
-              
+        
+        # Compile CoffeeScript source to JS
         (done) =>
           console.log('  Coffee -> JS ...')
-          _.each \
-            findFiles(opts.coffeePath, {
-              filter: (path) -> path[7..] == 'coffee' }),
-            (path) =>
-              
-              
-            
+          for path in @findFiles(
+                        opts.coffeePath,
+                        (p) -> _.last(p.split('.')) == 'coffee' )
+            console.log "    #{path} ..."
+            src = fs.readFileSync(path, 'utf-8')
+            try
+              context.compiledJS += Coffee.compile(src)
+            catch err
+              done(err)
+              return
+          done()
+        
+        # Compress JavaScript
+        (done) =>
+          console.log('  Compressing JS ...')
+          try
+            context.compiledJS =
+              Uglify.minify(
+                context.compiledJS,
+                fromString: true )
+              .code
+          catch err
+            done(err)
           done()
           
+        # Mix in pre-minified JS libraries
         (done) =>
-          console.log('  Jade -> HTML ...')
+          console.log('  Mixin JS Libs ...')
+          code = ''
+          for path in @findFiles(
+                        opts.jsLibPath,
+                        (p) -> _.last(p.split('.')) == 'coffee' )
+            console.log("    #{path} ...")
+            code +=
+              fs.readFileSync(path, 'utf-8')
+            context.compiledJS =
+              code + context.compiledJS
           done()
           
+        # Pack code assets
         (done) =>
-          console.log("  Compile -> #{opts.targetPath} ...")
+          console.log("  Packing into #{opts.targetPath} ...")
+          output =
+            [ '<html><head><style>'
+              context.compiledCSS
+              '</style><script type="text\javascript">'
+              context.compiledJS
+              '</script></head><body>'
+              context.compiledHTML
+              '</body></html>' ].join ''
+          fs.writeFileSync opts.targetPath, output, 'utf-8'
           done() ],
           
-      ((fn, cb) -> fn cb),
-      (err) ->
+      ((fn, cb) => fn cb),
+      (err) =>
         console.log \
           if err? 
             'ERROR:\n' + err + '\n'
@@ -102,24 +153,25 @@ class Util
       if    _.isObject a  then  opts = _.defaults a, opts
     
     # Walk file tree
-    walk = (path) ->
+    walk = (path) =>
       if fs.lstatSync(path).isDirectory()
         ps = []
         if opts.dirs
           ps.push path
         if opts.recurse
           ps = ps.concat \
-            _.chain  fs.readdirSync(path)
-            .map     (path) -> walk(path)
-            .reduce  (a, fs) -> (a.concat fs),  []
+            _.chain( fs.readdirSync(path) )
+            .map( (p) => walk "#{path}/#{p}" )
+            .reduce( ((a, b) => a.concat b), [] )
+            .value()
         ps
       else
         [path]
     
     # Flatten, filter, return
-    _.chain files(dir)
+    _.chain( walk opts.search )
     .flatten()
-    .filter opts.filter
+    .filter( opts.filter )
     .value()
   
     

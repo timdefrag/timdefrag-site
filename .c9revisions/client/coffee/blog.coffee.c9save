@@ -1,0 +1,4 @@
+{"ts":1356039846923,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1356039841727,"patch":[[{"diffs":[[1,"class Client\r\n  teting = 123"]],"start1":0,"start2":0,"length1":0,"length2":28}]],"length":28,"saved":false}
+{"ts":1356039904366,"patch":[[{"diffs":[[0,"ass "],[-1,"Client"],[1,"Blog"],[0,"\r\n  "]],"start1":2,"start2":2,"length1":14,"length2":12}]],"length":26,"saved":false}
+{"ts":1356040142871,"patch":[[{"diffs":[[0,"\r\n  "],[-1,"teting = 123"],[1,"constructor: ->\r\n    alert 'hello world'"]],"start1":10,"start2":10,"length1":16,"length2":44}]],"length":54,"saved":false}

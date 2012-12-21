@@ -27,3 +27,4 @@
 {"ts":1355871390270,"patch":[[{"diffs":[[0," \"1.6.x\""],[-1,","],[0,"\r\n  }\r\n}"]],"start1":330,"start2":330,"length1":17,"length2":16}]],"length":346,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1355952701238,"patch":[[{"diffs":[[0,": \"3.0.x\",\r\n"],[1,"    \"jade\"           : \"0.27.x\",\r\n"],[0,"    \"sequeli"]],"start1":296,"start2":296,"length1":24,"length2":58}]],"length":380,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1355962557543,"patch":[[{"diffs":[[0,": \"1.4.x\",\r\n"],[1,"    \"async\"          : \"0.x\",\r\n"],[0,"    \"coffee-"]],"start1":196,"start2":196,"length1":24,"length2":55}]],"length":411,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1356035849114,"patch":[[{"diffs":[[0,": \"3.0.x\",\r\n"],[1,"    \"uglify-js\"      : \"2.2.x\",\r\n"],[0,"    \"jade\"  "]],"start1":327,"start2":327,"length1":24,"length2":57}]],"length":444,"saved":false}
